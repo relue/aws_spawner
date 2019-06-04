@@ -7,8 +7,8 @@ import os
 class AwsManager:
     def __init__(self):
         self.session = boto3.Session(region_name='eu-central-1',
-                               aws_access_key_id="AKIAI6SXJ4UVZTHWY7CQ",
-                               aws_secret_access_key="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")
+                               aws_access_key_id="BKIAI6SXJ4UVZTHWY7CQ",
+                               aws_secret_access_key="wAs1H0yljv2AGMWf1PMpgEpvHuu/m3r/dKmCj6hh")
 
         self.client = self.session.client('autoscaling', region_name='eu-central-1')
         '''
